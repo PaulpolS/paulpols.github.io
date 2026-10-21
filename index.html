@@ -15,16 +15,16 @@
           const keys = await caches.keys();
           await Promise.all(keys.map(function(k) { return caches.delete(k); }));
         }
-        localStorage.setItem("calorie_safari_healed_v28", "1");
+        localStorage.setItem("calorie_safari_healed_v29", "1");
       } catch (e) {}
-      var target = "https://paulpols.github.io/calorie/app.html?v=28&t=" + Date.now() + window.location.hash;
+      var target = "https://paulpols.github.io/calorie/app.html?v=29&t=" + Date.now() + window.location.hash;
       window.location.replace(target);
     })();
   </script>
 </head>
 <body style="font-family:-apple-system,BlinkMacSystemFont,sans-serif;text-align:center;padding:48px 20px;background:#F0F9FF;color:#0369A1;">
-  <h3 style="margin-bottom:8px;">✨ กำลังล้างแคชเก่าของ Safari และเปิดแอป Calorie (v28)...</h3>
+  <h3 style="margin-bottom:8px;">✨ กำลังเปิดแอป Calorie (v29)...</h3>
   <p style="font-size:13px;color:#475569;">ข้อมูลอาหาร น้ำหนัก สกินแคร์ และนัดหมายของคุณปลอดภัย 100%</p>
-  <p style="margin-top:16px;"><a href="https://paulpols.github.io/calorie/app.html?v=28" style="color:#0284C7;font-weight:700;">แตะที่นี่หากไม่เปลี่ยนหน้าอัตโนมัติ</a></p>
+  <p style="margin-top:16px;"><a href="https://paulpols.github.io/calorie/app.html?v=29" style="color:#0284C7;font-weight:700;">แตะที่นี่หากไม่เปลี่ยนหน้าอัตโนมัติ</a></p>
 </body>
 </html>
